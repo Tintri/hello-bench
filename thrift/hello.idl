@@ -1,0 +1,4 @@
+// from http://thedulinreport.com/2013/02/24/hello-world-using-apache-thrift/
+service HelloWorld {
+  string hello(1: string name)
+}
